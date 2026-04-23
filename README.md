@@ -2,6 +2,12 @@
 Coming soon...
 Image Tournament is an application that helps you to sort your photos by comparing them side by side and asking you to choose which one is better. Each tournament will happen within one of your photo albums.
 
+## Instructions
+```
+npm install
+npm run start
+```
+
 ## Design
 ### User Interface
 The user opens the desktop application to a page showing folders of pictures. There should be an All Photos folder and the ability to create additional folders. The top bar should have a button to add a new folder and a button to upload images. If the user is in the home page or All Photos album then the images will only be added to All Photos, but if the user is in another album while uploading pictures then those pictures will be added to that album as well as All Photos.

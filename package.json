@@ -1,0 +1,27 @@
+{
+  "name": "image-tournament",
+  "version": "1.0.0",
+  "description": "A desktop application to help decide which photos are your favorites.",
+  "keywords": [
+    "photography"
+  ],
+  "homepage": "https://github.com/carsonchapman1123/ImageTournament#readme",
+  "bugs": {
+    "url": "https://github.com/carsonchapman1123/ImageTournament/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carsonchapman1123/ImageTournament.git"
+  },
+  "license": "MIT",
+  "author": "Carson Chapman",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^41.3.0"
+  }
+}
