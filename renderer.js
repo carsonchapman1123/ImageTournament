@@ -99,16 +99,6 @@ function showGridLoading() {
 function renderGrid(photos) {
   photoGrid.innerHTML = '';
 
-  if (photos.length === 0) {
-    photoGrid.innerHTML = `
-      <div class="empty-state" style="grid-column:1/-1">
-        <div class="empty-icon">📷</div>
-        <div class="empty-title">No photos yet</div>
-        <div class="empty-sub">Click "Import Photos" to add photos to this album.</div>
-      </div>`;
-    return;
-  }
-
   photos.forEach((photo, idx) => {
     const card = document.createElement('div');
     card.className = 'photo-card';
